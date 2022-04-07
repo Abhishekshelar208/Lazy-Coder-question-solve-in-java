@@ -1,0 +1,21 @@
+//lazy coder
+//Variable
+//type : easy.
+//problem 4: Write a program to print the sum , multiplication, subtract, division and reminder of two numbers.
+
+package com.company;
+
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter two number:");
+        int a=s.nextInt();
+        int b=s.nextInt();
+        System.out.println("The sum of two number is:"+(a+b));
+        System.out.println("The multiplication of two number is:"+(a*b));
+        System.out.println("The division of two number is:"+(a/b));
+        System.out.println("The reminder of two number is:"+(a%b));
+    }
+}
