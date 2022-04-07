@@ -1,0 +1,18 @@
+//lazy coder
+//Variable
+//type : easy.
+//problem 3: Write a program that takes two number as input and display the product of two numbers.
+
+package com.company;
+
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter two number:");
+        int a=s.nextInt();
+        int b=s.nextInt();
+        System.out.println("The product of two number is:"+(a*b));
+    }
+}
