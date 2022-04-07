@@ -1,0 +1,13 @@
+//lazy coder
+//Variable
+//type : easy.
+//problem 1: Write a program to print Hello on screen and print your name on separate line.
+
+package com.company;
+
+class Main{
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("Abhishek Shelar");
+    }
+}
