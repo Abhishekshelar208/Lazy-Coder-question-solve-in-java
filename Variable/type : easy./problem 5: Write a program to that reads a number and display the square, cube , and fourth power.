@@ -1,0 +1,20 @@
+//lazy coder
+//Variable
+//type : easy.
+//problem 5: Write a program to that reads a number and display the square, cube , and fourth power.
+
+package com.company;
+import java.math.*;
+
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=s.nextInt();
+        System.out.println("The square of the number is:"+(a*a));
+        System.out.println("The cube of the number is:"+(a*a*a));
+        System.out.println("The fourth power of the number is:"+(a*a*a*a));
+    }
+}
